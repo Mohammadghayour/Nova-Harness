@@ -1,0 +1,6 @@
+{
+  "name": "ForgeSWE Coding Harness",
+  "description": "Autonomous AI Coding Harness for Windows combining Aider surgical diffs, SWE-agent modular skills, multi-step planning, self-correction loops, and Human-in-the-Loop control.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

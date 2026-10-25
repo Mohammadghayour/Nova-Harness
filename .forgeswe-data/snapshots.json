@@ -1,0 +1,6 @@
+{
+  "D:\\tmp\\forgeswe-workspace": {
+    "index.js": "// Workspace Entry File (index.js)\n\nfunction main() {\n  return \"Ready\";\n}\n\nmodule.exports = { main };\n",
+    "package.json": "{\n  \"name\": \"workspace-app\",\n  \"version\": \"1.0.0\",\n  \"scripts\": {\n    \"test\": \"node test.js\"\n  }\n}"
+  }
+}

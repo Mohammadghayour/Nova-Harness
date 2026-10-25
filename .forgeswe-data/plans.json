@@ -1,0 +1,31 @@
+[
+  {
+    "id": "plan-1792925232881",
+    "taskPrompt": "هستی اینجا ؟ ",
+    "createdAt": "2026-10-25T10:47:12.881Z",
+    "architectSummary": "بله، اینجا هستم! برای این پیام نیازی به تغییر فایل‌ها نیست.",
+    "localizedFiles": [],
+    "status": "ready",
+    "steps": [
+      {
+        "id": "step-1",
+        "index": 1,
+        "title": "بررسی ساده اجرای برنامه",
+        "description": "اجرای تابع اصلی برای اطمینان از اینکه برنامه بدون خطا اجرا می‌شود.",
+        "type": "test",
+        "targetFile": "index.js",
+        "command": "node -e \"const { main } = require('./index'); if (main() !== 'Ready') process.exit(1)\"",
+        "skillId": "swe_test_verifier",
+        "riskLevel": "low",
+        "requiresApproval": false,
+        "status": "pending",
+        "patch": {
+          "filePath": "",
+          "search": "",
+          "replace": "",
+          "explanation": "هیچ تغییری در فایل‌ها لازم نیست."
+        }
+      }
+    ]
+  }
+]

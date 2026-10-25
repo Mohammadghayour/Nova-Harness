@@ -1,0 +1,28 @@
+appId: com.forgeswe.codingharness
+productName: ForgeSWE Coding Harness
+directories:
+  output: release-windows
+  buildResources: build
+files:
+  - electron/**/*
+  - package.json
+extraResources:
+  - from: dist
+    to: app-dist
+win:
+  target:
+    - target: nsis
+      arch:
+        - x64
+    - target: portable
+      arch:
+        - x64
+nsis:
+  artifactName: "${productName}-Setup-${version}-${arch}.${ext}"
+  oneClick: false
+  allowToChangeInstallationDirectory: true
+  createDesktopShortcut: true
+  createStartMenuShortcut: true
+  shortcutName: "ForgeSWE Coding Harness"
+portable:
+  artifactName: "${productName}-Portable-${version}-${arch}.${ext}"
